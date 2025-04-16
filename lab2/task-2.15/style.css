@@ -1,0 +1,21 @@
+.container {
+  font-family: Arial, sans-serif;
+}
+
+.box {
+  display: inline-block;
+  width: 150px;
+  height: 100px;
+  background-color: aquamarine;
+  margin: 10px;
+  vertical-align: top;
+  font-weight: regular;
+  padding: 5px;
+}
+
+.note {
+  background-color: #fcefdc;
+  padding: 5px;
+  font-size: 14px;
+  margin-top: 10px;
+}
