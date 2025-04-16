@@ -1,0 +1,58 @@
+/* Общие стили */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+/* Шапка */
+.header {
+  background-color: green;
+  color: white;
+  text-align: center;
+  padding: 15px;
+}
+
+/* Контейнер для боковой панели и основного контента */
+.container {
+  display: flex;
+  flex: 1;
+}
+
+/* Боковая панель */
+.sidebar {
+  width: 200px;
+  background-color: red;
+  color: white;
+  padding: 15px;
+}
+
+.sidebar ul {
+  list-style-type: none;
+}
+
+.sidebar ul li {
+  margin-bottom: 10px;
+}
+
+/* Основной контент */
+.content {
+  flex: 1;
+  padding: 20px;
+  background-color: #f4f4f4;
+}
+
+/* Подвал */
+.footer {
+  background-color: black;
+  color: white;
+  text-align: center;
+  padding: 10px;
+}
