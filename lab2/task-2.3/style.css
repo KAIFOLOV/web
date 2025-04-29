@@ -1,0 +1,23 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  font-family: Arial, sans-serif;
+}
+
+.container {
+  display: flex;
+  width: 600px;
+}
+
+.content-column {
+  flex-grow: 1;
+  color: #ffffff;
+  background-color: #0004ff;
+  padding: 15px;
+}
