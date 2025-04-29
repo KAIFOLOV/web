@@ -21,8 +21,15 @@ header {
 }
 
 .left-column {
-  width: 200px;
+  width: 25%;
   background-color: #99db7e;
+  padding: 15px;
+  flex-shrink: 0;
+}
+
+.right-column {
+  width: 200px;
+  background-color: #ebe26e;
   padding: 15px;
   flex-shrink: 0;
 }
