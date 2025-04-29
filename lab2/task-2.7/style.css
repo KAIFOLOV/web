@@ -1,0 +1,61 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+}
+
+.static-div {
+  width: 150px;
+  height: 100px;
+  background-color: purple;
+  color: white;
+}
+
+.relative-div {
+  position: relative;
+  width: 150px;
+  height: 100px;
+  color: white;
+}
+
+.red {
+  background-color: darkred;
+}
+
+.orange {
+  background-color: orange;
+  left: 30px ;
+  top: -30px ;
+}
+
+.large {
+  width: 600px;
+  height: 400px;
+  background-color: salmon;
+  margin-top: 10px;
+}
+
+.absolute-div {
+  position: absolute;
+  top: 150px;
+  right: 0px;
+  width: 300px;
+  height: 200px;
+  background-color: darkorchid;
+  color: white;
+  padding-top: 70px;
+}
+
+.fixed-div {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  width: 100px;
+  height: 100px;
+  background-color: green;
+  color: white;
+}
