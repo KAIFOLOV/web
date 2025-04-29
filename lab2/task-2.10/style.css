@@ -1,0 +1,23 @@
+/* styles.css */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  color: #000000;
+}
+
+.float-box {
+  width: 200px;
+  height: 100px;
+  background-color: lightgreen;
+  margin: 30px;
+}
+
+.clear-box {
+  background-color: lightcoral;
+  clear: both;
+}
