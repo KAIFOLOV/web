@@ -8,16 +8,20 @@ body {
   display: flex;
   justify-content: center;
   font-family: Arial, sans-serif;
+  overflow-x: hidden;
 }
 
 .container {
-  display: flex;
-  width: 600px;
+  width: 100%; /* Контейнер занимает всю ширину экрана */
+  max-width: 100%; /* Ограничиваем максимальную ширину */
+  overflow-x: auto; /* Добавляем горизонтальную прокрутку */
 }
 
 .content-column {
-  flex-grow: 1;
+  width: 600px; /* Фиксированная ширина блока */
   color: #ffffff;
   background-color: #0004ff;
-  padding: 15px;
+  padding: 15px; /* Отступы внутри блока */
+  word-wrap: break-word; /* Перенос слов, если они слишком длинные */
+  margin: 0 auto; /* Центрируем блок внутри контейнера */
 }
