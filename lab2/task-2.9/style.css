@@ -18,10 +18,18 @@ body {
 }
 
 .content-column {
-  width: 600px;
+  width: 700px;
   color: #ffffff;
   background-color: #0004ff;
   padding: 15px;
   word-wrap: break-word;
   margin: 0 auto;
+}
+
+.hamster-image {
+  float: right;
+  margin-left: 15px;
+  margin-bottom: 15px;
+  width: 300px;
+  height: auto;
 }
